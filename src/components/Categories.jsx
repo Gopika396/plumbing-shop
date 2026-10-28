@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+import getImage from "./getImage";
 
 const categories = [
   {
@@ -49,7 +49,7 @@ function Categories() {
             <div className="col-md-6 col-lg-4" key={category.name}>
               <div className="category-card" data-aos="fade-up">
                 <img
-                  src={`/src/assets/images/${category.image}`}
+                  src={getImage(category.image)}
                   alt={category.name}
                 />
                 <div className="category-card-content">

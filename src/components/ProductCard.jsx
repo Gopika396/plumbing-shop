@@ -1,5 +1,5 @@
-
 import { useState } from "react";
+import getImage from "./getImage";
 
 function ProductCard({ product, onAdd }) {
   const [added, setAdded] = useState(false);
@@ -14,7 +14,7 @@ function ProductCard({ product, onAdd }) {
     <div className="product-card" data-aos="fade-up">
       <div className="product-image">
         <img
-          src={`/src/assets/images/${product.image}`}
+          src={getImage(product.image)}
           alt={product.name}
         />
         <span className="product-category">{product.category}</span>

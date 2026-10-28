@@ -1,8 +1,8 @@
-
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import products from "./ProductData";
 import ProductCard from "./ProductCard";
+import getImage from "./getImage";
 
 function Home() {
   const [cart, setCart] = useState([]);
@@ -47,7 +47,7 @@ function Home() {
 
           <div className="hero-image-wrap" data-aos="fade-left">
             <img
-              src="/src/assets/images/plumbing-hero.jpg"
+              src={getImage("plumbing-hero.jpg")}
               alt="Plumbing pipes and supplies"
               className="hero-image"
             />

@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+import getImage from "./getImage";
 
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
           <div data-aos="fade-right">
             <img
               className="about-image"
-              src="/src/assets/images/shop-counter.jpg"
+              src={getImage("shop-counter.jpg")}
               alt="Plumbing supplies showroom"
             />
           </div>

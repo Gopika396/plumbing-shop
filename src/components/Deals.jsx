@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+import getImage from "./getImage";
 
 function Deals() {
   return (
@@ -15,7 +15,7 @@ function Deals() {
           <div className="col-md-6">
             <div className="deal-card" data-aos="fade-right">
               <img
-                src="/src/assets/images/plumbing-tools.jpg"
+                src={getImage("plumbing-tools.jpg")}
                 alt="Plumbing tools"
               />
               <div className="deal-content">
@@ -32,7 +32,7 @@ function Deals() {
           <div className="col-md-6">
             <div className="deal-card" data-aos="fade-left">
               <img
-                src="/src/assets/images/pipe-fittings.jpg"
+                src={getImage("pipe-fittings.jpg")}
                 alt="Pipe fittings"
               />
               <div className="deal-content">

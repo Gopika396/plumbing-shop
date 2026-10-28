@@ -1,5 +1,5 @@
-
 import { useState } from "react";
+import getImage from "./getImage";
 
 function Contact() {
   const [submitted, setSubmitted] = useState(false);
@@ -44,7 +44,7 @@ function Contact() {
               </div>
 
               <img
-                src="/src/assets/images/shop-counter.jpg"
+                src={getImage("shop-counter.jpg")}
                 alt="Plumbing supplies shop"
                 className="contact-image"
               />
