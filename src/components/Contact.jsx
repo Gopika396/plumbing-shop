@@ -30,7 +30,7 @@ function Contact() {
 
               <div className="contact-item">
                 <i className="bi bi-telephone"></i>
-                <div><strong>Phone</strong><span>+91 98765 43210</span></div>
+                <div><strong>Phone</strong><span>+91 11111 00000</span></div>
               </div>
 
               <div className="contact-item">

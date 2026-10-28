@@ -56,7 +56,7 @@ function Footer() {
 
           <div className="footer-column footer-contact">
             <h3>Contact</h3>
-            <p><i className="bi bi-telephone"></i> +91 98765 43210</p>
+            <p><i className="bi bi-telephone"></i> +91 11111 00000</p>
             <p><i className="bi bi-envelope"></i> sales@pipepro.example</p>
             <p><i className="bi bi-geo-alt"></i> Your shop address here</p>
           </div>
